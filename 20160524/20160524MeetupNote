@@ -1,0 +1,50 @@
+20160524 讀書會 
+
+Spark 新竹的 gitter 交流
+https://gitter.im/hubertfc/SparkHsinchu
+
+2016 五月份聚會 -- Spark 開發環境介紹與設定 (Hands on)
+
+http://nctu330.kktix.cc/events/spark-hsinchu-may
+
+Meet up 活動頁面
+http://www.meetup.com/Apache-Spark-Hsinchu/events/230835863/
+
+# Hands On 相關資料
+https://github.com/spark-hsinchu/spark-hands-on
+
+
+Notes
+
+# 建立練習資料夾
+$ mkdir  spark-hands-on
+
+# 進入練習資料夾
+$ cd spark-hands-on/
+
+==== Helloworld 練習 ====
+# 建立 helloworld 資料夾並下載檔案( 參考答案 )
+$ git clone -b helloworld https://github.com/spark-hsinchu/spark-hands-on.git helloworld
+
+# 建立 myhelloworld 資料夾並下載檔案 ( 空的, 練習資料夾 )
+$ git clone -b empty https://github.com/spark-hsinchu/spark-hands-on.git myhelloworld
+
+# 進入練習資料夾 開始練習
+$ cd myhelloworld
+
+
+==== WordCount 練習 ====
+# 建立 wordcount 資料夾並下載檔案( 參考答案 )
+$ git clone -b wordcount https://github.com/spark-hsinchu/spark-hands-on.git wordcount
+
+# 建立 mywordcount 資料夾並下載檔案 ( 空的, 練習資料夾 )
+$ git clone -b empty https://github.com/spark-hsinchu/spark-hands-on.git mywordcount
+
+# 進入練習資料夾 開始練習
+$ cd mywordcount
+
+
+Notes:
+* scala 註解方式跟 java 一樣, // 註解方式
+* scala 會去判斷形態, 所以不一定要宣告型態
+* 可以將 RDD 想成 Java 的集合, 但是他是分散式的.
