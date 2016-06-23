@@ -1,0 +1,45 @@
+20160622 讀書會 
+
+Spark 新竹的 gitter 交流
+https://gitter.im/hubertfc/SparkHsinchu
+
+2016 六月份聚會 -- Spark RDD概念入門
+
+http://nctu330.kktix.cc/events/spark-hsinchu-june
+
+Meet up 活動頁面
+http://www.meetup.com/Apache-Spark-Hsinchu/events/231850932/
+
+# 簡報 相關資料
+https://goo.gl/J5ZcJR
+
+
+Notes:
+
+RDD
+ * 資料的集合
+ * 支援FT
+
+Spark以行來拆資料, 有幾行就有幾筆
+
+概念, 以面向資料的方式來看 spark
+
+Application ( Driver 所在的地方 )
+* Job - > 每個 Action 執行就會產生一個 Job
+
+RDD.catch()
+* 作用在於不重複產生 RDD, 後續可以重複利用
+
+DAG 
+* Stage ( 虛框線 ): 一般有兩種狀況產生 stage, Shuffle 與 result
+* RDD ( 框線 )
+  * Partition ( 實心長方形 )
+* Task ( --> )
+
+Partition
+* 依照類型來自動切 Partition
+* Partition 是 task 的 running unit
+* 多少partition 就會產生多少個 task
+
+Question:
+* RDD 如何列出所有 RDD 與樹狀圖?
