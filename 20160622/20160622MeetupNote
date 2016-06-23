@@ -43,3 +43,4 @@ Partition
 
 Question:
 * RDD 如何列出所有 RDD 與樹狀圖?
+Ans: ```rdd.toDebugString()``` BY Allen
