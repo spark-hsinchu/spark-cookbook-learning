@@ -1,6 +1,9 @@
 # spark-cookbook-learning
 Material for Spark Cookbook
 
+Meetup - http://www.meetup.com/Apache-Spark-Hsinchu/
+Gitter channel - https://gitter.im/hubertfc/SparkHsinchu
+
 ---------------------------
 
 20160420 四月份聚會--Spark Cookbook 讀書會 (第一次)
@@ -27,4 +30,12 @@ Material for Spark Cookbook
 * 相關資料於20160824/
 
 ---------------------------
+
+20161004 九月份聚會--Spark Cookbook 讀書會 (第6次)
+* 相關資料於20161004/
+* 九月份聚會因颱風因素順延至 10/4
+
+
+---------------------------
+
 
