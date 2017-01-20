@@ -44,4 +44,10 @@ Gitter channel - https://gitter.im/hubertfc/SparkHsinchu
 
 ---------------------------
 
+20161228 十二月份聚會--Spark Cookbook 讀書會 (第九次)
+* 相關資料於20161228/
+
+
+---------------------------
+
 
